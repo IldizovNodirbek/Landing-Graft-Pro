@@ -22,25 +22,26 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Mobile navigation toggle
 document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.getElementById('nav-toggle');
-  const nav = document.getElementById('nav');
-  
-  if (navToggle && nav) {
+  const mobileNav = document.querySelector('.mobile-nav');
+
+  if (navToggle && mobileNav) {
     navToggle.addEventListener('click', () => {
       navToggle.classList.toggle('active');
-      nav.classList.toggle('active');
+      mobileNav.classList.toggle('active');
     });
+
     
-    // Close mobile nav when clicking on nav links
-    const navLinks = nav.querySelectorAll('.nav-link');
-    navLinks.forEach(link => {
+    const mobileNavLinks = mobileNav.querySelectorAll('.mobile-nav-link');
+    mobileNavLinks.forEach(link => {
       link.addEventListener('click', () => {
         navToggle.classList.remove('active');
-        nav.classList.remove('active');
+        mobileNav.classList.remove('active');
       });
     });
+  } else {
+    console.error('Nav toggle yoki mobile-nav elementi topilmadi!');
   }
 });
 
