@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingCraft Pro - Premium Landing Page Design Services</title>
+    <meta name="description" content="Professional landing page design services that convert visitors into customers. Custom, responsive, and optimized for maximum performance.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <div class="logo-icon">⚡</div>
+                    <span class="logo-text">LandingCraft Pro</span>
+                </div>
+                
+                <nav class="header__nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#features" class="nav-link">Features</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="btn btn--primary header__cta" onclick="scrollToSection('contact')">
+                    Get Started
+                </button>
+                
+                <button class="header__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__background">
+            <div class="hero__shape hero__shape--1"></div>
+            <div class="hero__shape hero__shape--2"></div>
+            <div class="hero__shape hero__shape--3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge">
+                    <span class="badge-icon">🏆</span>
+                    #1 Landing Page Design Service
+                </div>
+                
+                <h1 class="hero__title">
+                    Transform Visitors Into
+                    <span class="gradient-text">Paying Customers</span>
+                </h1>
+                
+                <p class="hero__subtitle">
+                    Professional landing pages that convert 3x better than industry average. 
+                    Custom-designed, mobile-optimized, and ready to scale your business.
+                </p>
+                
+                <div class="hero__actions">
+                    <button class="btn btn--primary btn--large" onclick="scrollToSection('contact')">
+                        Start Your Project
+                        <span class="btn-icon">→</span>
+                    </button>
+                    <button class="btn btn--secondary btn--large" onclick="scrollToSection('portfolio')">
+                        <span class="btn-icon">▶</span>
+                        View Our Work
+                    </button>
+                </div>
+                
+                <div class="hero__stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-number">300%</div>
+                        <div class="stat-label">Average Conversion Increase</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Happy Clients Worldwide</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-number">50M+</div>
+                        <div class="stat-label">Total Page Views Generated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose LandingCraft Pro?</h2>
+                <p class="section-subtitle">
+                    We combine design expertise with conversion optimization to deliver landing pages that actually work.
+                </p>
+            </div>
+            
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Custom Design</h3>
+                    <p class="feature-description">
+                        Unique designs tailored to your brand that stand out from the competition and reflect your values.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Mobile Optimized</h3>
+                    <p class="feature-description">
+                        Perfect performance on all devices with responsive design that adapts to any screen size seamlessly.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">
+                        Optimized for speed with clean code and compressed assets for instant loading times.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Conversion Focused</h3>
+                    <p class="feature-description">
+                        Every element is strategically placed to guide visitors toward your desired action.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3 class="feature-title">Easy to Update</h3>
+                    <p class="feature-description">
+                        Clean, maintainable code that makes it simple to update content and make changes.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">Analytics Ready</h3>
+                    <p class="feature-description">
+                        Built-in tracking and analytics integration to measure and optimize your performance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">
+                    Choose the perfect package for your business needs and budget.
+                </p>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3 class="service-title">Starter</h3>
+                        <div class="service-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">499</span>
+                            <span class="price-period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>✓ Custom landing page design</li>
+                        <li>✓ Mobile-responsive layout</li>
+                        <li>✓ Contact form integration</li>
+                        <li>✓ Basic SEO optimization</li>
+                        <li>✓ 2 rounds of revisions</li>
+                        <li>✓ 7-day delivery</li>
+                    </ul>
+                    <button class="btn btn--outline service-btn" onclick="scrollToSection('contact')">
+                        Choose Starter
+                    </button>
+                </div>
+                
+                <div class="service-card service-card--featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-header">
+                        <h3 class="service-title">Professional</h3>
+                        <div class="service-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">999</span>
+                            <span class="price-period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>✓ Everything in Starter</li>
+                        <li>✓ Advanced animations</li>
+                        <li>✓ A/B testing setup</li>
+                        <li>✓ Analytics integration</li>
+                        <li>✓ Lead magnet creation</li>
+                        <li>✓ 5 rounds of revisions</li>
+                        <li>✓ 5-day delivery</li>
+                    </ul>
+                    <button class="btn btn--primary service-btn" onclick="scrollToSection('contact')">
+                        Choose Professional
+                    </button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3 class="service-title">Enterprise</h3>
+                        <div class="service-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">1999</span>
+                            <span class="price-period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>✓ Everything in Professional</li>
+                        <li>✓ Multi-page funnel</li>
+                        <li>✓ Custom integrations</li>
+                        <li>✓ Conversion optimization</li>
+                        <li>✓ 30-day support</li>
+                        <li>✓ Unlimited revisions</li>
+                        <li>✓ 3-day delivery</li>
+                    </ul>
+                    <button class="btn btn--outline service-btn" onclick="scrollToSection('contact')">
+                        Choose Enterprise
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">
+                    Take a look at some of our recent landing page projects and their impressive results.
+                </p>
+            </div>
+            
+            <div class="portfolio__grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tech Startup Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Tech Startup</h4>
+                            <p class="portfolio-description">Increased conversions by 340%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Store Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">E-commerce Store</h4>
+                            <p class="portfolio-description">Boosted sales by 250%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=600" alt="SaaS Product Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">SaaS Product</h4>
+                            <p class="portfolio-description">Generated 180% more leads</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fitness App Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Fitness App</h4>
+                            <p class="portfolio-description">Achieved 400% ROI improvement</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Consulting Firm Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Consulting Firm</h4>
+                            <p class="portfolio-description">Increased inquiries by 290%</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Real Estate Landing Page" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Real Estate</h4>
+                            <p class="portfolio-description">Generated 220% more leads</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">
+                    Don't just take our word for it - hear from our satisfied clients.
+                </p>
+            </div>
+            
+            <div class="testimonials__slider" id="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "LandingCraft Pro transformed our online presence completely. Our conversion rate increased by 340% within the first month. The design is not only beautiful but incredibly effective."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Sarah Johnson" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Sarah Johnson</h4>
+                                <p class="author-title">CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Professional, fast, and results-driven. The team understood our vision perfectly and delivered a landing page that exceeded our expectations. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Mike Chen" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Mike Chen</h4>
+                                <p class="author-title">Marketing Director, GrowthCo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "The attention to detail and focus on conversion optimization is unmatched. Our lead generation increased by 280% after launching the new landing page."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Emily Davis" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Emily Davis</h4>
+                                <p class="author-title">Founder, SuccessPath</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials__controls">
+                <button class="testimonial-control" onclick="changeTestimonial(-1)">‹</button>
+                <div class="testimonial-dots">
+                    <span class="dot active" onclick="currentTestimonial(1)"></span>
+                    <span class="dot" onclick="currentTestimonial(2)"></span>
+                    <span class="dot" onclick="currentTestimonial(3)"></span>
+                </div>
+                <button class="testimonial-control" onclick="changeTestimonial(1)">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ready to Get Started?</h2>
+                <p class="section-subtitle">
+                    Let's discuss your project and create a landing page that converts visitors into customers.
+                </p>
+            </div>
+            
+            <div class="contact__content">
+                <div class="contact__info">
+                    <h3 class="contact__title">Let's Work Together</h3>
+                    <p class="contact__description">
+                        We're excited to learn about your project and help you achieve your conversion goals. 
+                        Fill out the form and we'll get back to you within 24 hours.
+                    </p>
+                    
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>hello@landingcraftpro.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact__form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name *</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address *</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company Name</label>
+                        <input type="text" id="company" name="company" class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service" class="form-label">Service Interest *</label>
+                        <select id="service" name="service" class="form-input" required>
+                            <option value="">Select a service</option>
+                            <option value="starter">Starter Package ($499)</option>
+                            <option value="professional">Professional Package ($999)</option>
+                            <option value="enterprise">Enterprise Package ($1999)</option>
+                            <option value="custom">Custom Solution</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Project Description *</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" rows="5" required placeholder="Tell us about your project, goals, and any specific requirements..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--large contact__submit">
+                        Send Message
+                        <span class="btn-icon">→</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <div class="logo-icon">⚡</div>
+                        <span class="logo-text">LandingCraft Pro</span>
+                    </div>
+                    <p class="footer__description">
+                        Creating high-converting landing pages that transform your business and drive real results.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Services</h4>
+                        <ul class="footer__list">
+                            <li><a href="#services" class="footer__link">Landing Page Design</a></li>
+                            <li><a href="#services" class="footer__link">Conversion Optimization</a></li>
+                            <li><a href="#services" class="footer__link">A/B Testing</a></li>
+                            <li><a href="#services" class="footer__link">Analytics Setup</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Company</h4>
+                        <ul class="footer__list">
+                            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                            <li><a href="#testimonials" class="footer__link">Testimonials</a></li>
+                            <li><a href="#contact" class="footer__link">Contact</a></li>
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Contact</h4>
+                        <ul class="footer__list">
+                            <li>hello@landingcraftpro.com</li>
+                            <li>+1 (555) 123-4567</li>
+                            <li>San Francisco, CA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <div class="footer__copy">
+                    <p>&copy; 2024 LandingCraft Pro. All rights reserved.</p>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+                    <a href="#" class="social-link" aria-label="Dribbble">🏀</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
